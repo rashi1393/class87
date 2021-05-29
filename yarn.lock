@@ -1432,6 +1432,11 @@
     wcwidth "^1.0.1"
     ws "^1.1.0"
 
+"@react-native-community/masked-view@^0.1.10":
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/@react-native-community/masked-view/-/masked-view-0.1.10.tgz#5dda643e19e587793bc2034dd9bf7398ad43d401"
+  integrity sha512-rk4sWFsmtOw8oyx8SD3KSvawwaK7gRBSEIy2TAwURyGt+3TizssXP1r8nx3zY+R7v2vYYHXZ+k2/GULAT/bcaQ==
+
 "@react-navigation/core@^3.7.5":
   version "3.7.5"
   resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-3.7.5.tgz#2b8d464574edc7bcab8be226375d8227e9814ad2"
@@ -2736,6 +2741,13 @@ expo-font@~8.0.0:
   dependencies:
     fontfaceobserver "^2.1.0"
 
+expo-image-picker@~8.0.1:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/expo-image-picker/-/expo-image-picker-8.0.2.tgz#14139f1d73793ae7fba6fe3cf34e1dc91baf402a"
+  integrity sha512-oa0/JoKIv5mxyadpVqiQ+BXak2s7QS3+Rurj1j/gL5GGFmb3cDJWbGHxvtrEXEccv8812JAp5BfBRqfzlW1gMQ==
+  dependencies:
+    expo-permissions "*"
+
 expo-keep-awake@~8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/expo-keep-awake/-/expo-keep-awake-8.0.0.tgz#f9200a876a5db86e3f0aec8843428a918cdc08d6"
@@ -2752,6 +2764,11 @@ expo-location@~8.0.0:
   integrity sha512-48i4dUCaqPTwSri79yummKwg6vE6loI7d4iHCrbG4EEuN3fhS8I9xU60CEkoNZTziH9zK0iw4KSjr7DbXUAaCw==
   dependencies:
     invariant "^2.2.4"
+
+expo-permissions@*:
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-9.3.0.tgz#b90c7e9e411d306c1c7ba2bae18d5c53c201affd"
+  integrity sha512-ylSJZVvEGJVFTKsFrUL2S6gCvFt+/o8TJ3xT4WaMjHe2/2Z7R8ng6NR47Kt54t7XBIV/SZ7DIY9uRiR7TPuNYA==
 
 expo-permissions@~8.0.0:
   version "8.0.0"
@@ -3218,9 +3235,9 @@ gtoken@^5.0.0:
     jws "^4.0.0"
     mime "^2.2.0"
 
-"hammerjs@git+https://github.com/naver/hammer.js.git":
+"hammerjs@https://github.com/naver/hammer.js.git":
   version "2.0.17-snapshot"
-  resolved "git+https://github.com/naver/hammer.js.git#54bc698b25edd6e1b76ca975ebaced5ce0467d51"
+  resolved "https://github.com/naver/hammer.js.git#54bc698b25edd6e1b76ca975ebaced5ce0467d51"
   dependencies:
     "@types/hammerjs" "^2.0.36"
 
@@ -5052,6 +5069,11 @@ react-native-status-bar-height@^2.2.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/react-native-status-bar-height/-/react-native-status-bar-height-2.5.0.tgz#bc0fb85230603850aab9667ee8111a62954de90c"
   integrity sha512-sYBCPYA/NapBSHkdm/IVL4ID3LLlIuLqINi2FBDyMkc2BU9pfSGOtkz9yfxoK39mYJuTrlTOQ7mManARUsYDSA==
+
+react-native-swipe-list-view@^3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/react-native-swipe-list-view/-/react-native-swipe-list-view-3.2.4.tgz#b854b7694484b8a95c88f179510f33379ccffe21"
+  integrity sha512-vKx6lfGRuhPOqa6mKBZPGRNMua7mMPSByKnZBNxdvNYpeEtgjJLWnQWJM3gRkgSuR6asaMrWEYGW8weZ8rRSIQ==
 
 react-native-tab-view@^2.11.0:
   version "2.13.0"

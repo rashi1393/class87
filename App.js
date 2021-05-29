@@ -4,10 +4,12 @@ import WelcomeScreen from './screens/WelcomeScreen';
 import { AppDrawerNavigator } from './components/AppDrawerNavigator'
 import { AppTabNavigator } from './components/AppTabNavigator'
 
-export default function App() {
-  return (
-    <AppContainer/>
-  );
+export default class App extends React.Component{
+  render(){
+    return (
+      <AppContainer/>
+    );
+  }
 }
 
 
